@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MyDbContext>(options =>
 {
     options.UseMySql("server=localhost;uid=root;password=;database=mvc_csharp;persistsecurityinfo=true",
-        Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql"));
+        ServerVersion.Parse("8.0.31-mysql"));
 });
 var app = builder.Build();
 
