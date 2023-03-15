@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ASP.NETMVCCRUD.Models
+namespace ASP.NETMVCCRUD.Models.Domain
 {
     [Table("Employees")]
     public class Employees

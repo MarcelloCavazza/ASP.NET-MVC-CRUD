@@ -1,4 +1,4 @@
-﻿using ASP.NETMVCCRUD.Models;
+﻿using ASP.NETMVCCRUD.Models.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NETMVCCRUD.Data
