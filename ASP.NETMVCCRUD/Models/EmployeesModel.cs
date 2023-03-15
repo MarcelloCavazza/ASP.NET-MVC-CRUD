@@ -26,6 +26,6 @@ namespace ASP.NETMVCCRUD.Models
         public DateTime CreatedAt { get; set; }
         [Display(Name = "UpdatedAt")]
         [Column("UpdatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }
