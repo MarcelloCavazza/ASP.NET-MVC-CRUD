@@ -17,7 +17,7 @@ namespace ASP.NETMVCCRUD.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var listOfEmployees = await myDbContext.Employees.ToListAsync();
+            List<Employees> listOfEmployees = await myDbContext.Employees.ToListAsync();
             return View(listOfEmployees);
         }
 
