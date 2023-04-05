@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MyDbContext>(options =>
 {
-    options.UseMySql("server=localhost;uid=root;password=;database=mvc_csharp;persistsecurityinfo=true",
+    options.UseMySql("server=localhost;uid=root;password=root;database=mvc_csharp;persistsecurityinfo=true",
         ServerVersion.Parse("8.0.31-mysql"));
 });
 var app = builder.Build();
