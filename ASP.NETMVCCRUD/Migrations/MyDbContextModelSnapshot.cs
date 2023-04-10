@@ -19,7 +19,7 @@ namespace ASP.NETMVCCRUD.Migrations
                 .HasAnnotation("ProductVersion", "7.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("ASP.NETMVCCRUD.Models.Employees", b =>
+            modelBuilder.Entity("ASP.NETMVCCRUD.Models.Domain.Employees", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
